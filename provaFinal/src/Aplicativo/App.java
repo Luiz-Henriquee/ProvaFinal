@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 import Classes.CompararValor;
-import Classes.CompararValor;
 import Classes.Produto;
 import Classes.Venda;
 
