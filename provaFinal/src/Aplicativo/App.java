@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import Classes.CompararValor;
+import Classes.CompararValor;
 import Classes.Produto;
 import Classes.Venda;
 
@@ -125,6 +127,16 @@ public class App {
                     System.out.printf("Nome: %s \nCódigo: %s \nValor unitário: %s \nQuantidade em estoque: %s \n" 
                     , produto.getNome(), produto.getCodigo(), produto.getValor(),
                      produto.getQtdEstoque() );
+
+                     //produtos.sort(new CompararValor());
+                     
+
+                       // produtos.get(0);
+
+                        //System.out.println("O valor minímo é: " + produtos.get(0));
+
+                         
+                     
     
     
                    } 

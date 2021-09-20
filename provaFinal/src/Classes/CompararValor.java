@@ -5,11 +5,12 @@ import java.util.Comparator;
 public class CompararValor implements Comparator<Produto> {
 
     @Override
-    public int compare(Produto o1, Produto o2) {
+    public int compare(Produto v1, Produto v2) {
        
-        return 0;
+        
+        return v1.getValor().compareTo(v2.getValor());
+        
+            
     }
-
-   
     
 }

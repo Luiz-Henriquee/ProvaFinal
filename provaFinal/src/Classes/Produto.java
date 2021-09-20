@@ -4,7 +4,7 @@ public class Produto {
 
 private int codigo;
 private String nome;
-private double valor;
+private Double valor;
 private int qtdEstoque;
 
 
@@ -21,10 +21,10 @@ public String getNome() {
 public void setNome(String nome) {
     this.nome = nome;
 }
-public double getValor() {
+public Double getValor() {
     return valor;
 }
-public void setValor(double valor) {
+public void setValor(Double valor) {
     this.valor = valor;
 }
 public int getQtdEstoque() {
