@@ -128,12 +128,10 @@ public class App {
                     , produto.getNome(), produto.getCodigo(), produto.getValor(),
                      produto.getQtdEstoque() );
 
-                     //produtos.sort(new CompararValor());
-                     
+                    /* produtos.sort(new CompararValor());
 
-                       // produtos.get(0);
-
-                        //System.out.println("O valor minímo é: " + produtos.get(0));
+                        System.out.println("O valor minímo é: " + produtos.get(0).getValor());
+                        System.out.printf("O valor maximo é: " + produtos.get(produtos.size() -1).getValor());*/
 
                          
                      
